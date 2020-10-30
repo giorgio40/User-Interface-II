@@ -329,12 +329,12 @@
                 display: flex;
                 text-align: center;
                 flex-direction: column;
+                margin-top: 5%;
+                background-color: #9b9794;
             }
             
             .paragraph {
                 font-size: 3rem;
             }
             
-            .footer {
-                margin-top: 5%;
-            }
+            .footerdiv {}
