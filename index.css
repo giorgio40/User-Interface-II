@@ -170,6 +170,8 @@
             h1 {
                 font-size: 6rem;
                 margin-bottom: 3%;
+                margin-top: 2%;
+                margin-left: 2%;
             }
             
             .blue {
@@ -336,5 +338,3 @@
             .paragraph {
                 font-size: 3rem;
             }
-            
-            .footerdiv {}
