@@ -1,0 +1,340 @@
+            /* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+            
+            html,
+            body,
+            div,
+            span,
+            applet,
+            object,
+            iframe,
+            h1,
+            h2,
+            h3,
+            h4,
+            h5,
+            h6,
+            p,
+            blockquote,
+            pre,
+            a,
+            abbr,
+            acronym,
+            address,
+            big,
+            cite,
+            code,
+            del,
+            dfn,
+            em,
+            img,
+            ins,
+            kbd,
+            q,
+            s,
+            samp,
+            small,
+            strike,
+            strong,
+            sub,
+            sup,
+            tt,
+            var,
+            b,
+            u,
+            i,
+            center,
+            dl,
+            dt,
+            dd,
+            ol,
+            ul,
+            li,
+            fieldset,
+            form,
+            label,
+            legend,
+            table,
+            caption,
+            tbody,
+            tfoot,
+            thead,
+            tr,
+            th,
+            td,
+            article,
+            aside,
+            canvas,
+            details,
+            embed,
+            figure,
+            figcaption,
+            footer,
+            header,
+            hgroup,
+            menu,
+            nav,
+            output,
+            ruby,
+            section,
+            summary,
+            time,
+            mark,
+            audio,
+            video {
+                margin: 0;
+                padding: 0;
+                border: 0;
+                font-size: 100%;
+                font: inherit;
+                vertical-align: baseline;
+            }
+            /* HTML5 display-role reset for older browsers */
+            
+            article,
+            aside,
+            details,
+            figcaption,
+            figure,
+            footer,
+            header,
+            hgroup,
+            menu,
+            nav,
+            section {
+                display: block;
+            }
+            
+            body {
+                line-height: 1;
+            }
+            
+            ol,
+            ul {
+                list-style: none;
+            }
+            
+            blockquote,
+            q {
+                quotes: none;
+            }
+            
+            blockquote:before,
+            blockquote:after,
+            q:before,
+            q:after {
+                content: '';
+                content: none;
+            }
+            
+            table {
+                border-collapse: collapse;
+                border-spacing: 0;
+            }
+            
+            * {
+                box-sizing: border-box;
+                max-width: 100%;
+                border: 1px solid grey
+            }
+            
+            html {
+                font-size: 62.5%;
+            }
+            
+            body {
+                font-size: 1.6rem;
+                font-family: 'Roboto Mono', monospace;
+                line-height: 1.5;
+            }
+            
+            #button {
+                background: purple;
+                padding: 3%;
+                border: 3px dotted black;
+                margin: 2%;
+            }
+            
+            nav a {
+                padding: 2%;
+            }
+            
+            .navigation {
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-start;
+            }
+            
+            h1 {
+                font-size: 6rem;
+                margin-bottom: 3%;
+            }
+            
+            .blue {
+                background-color: blueviolet;
+                margin-left: 3%;
+            }
+            
+            .red {
+                background-color: firebrick;
+            }
+            
+            .yellow {
+                background-color: greenyellow;
+            }
+            
+            .orange {
+                background-color: orangered;
+            }
+            
+            .mountains {
+                width: 30%;
+                height: 20vh;
+                margin-top: 3%;
+            }
+            
+            .info-section {
+                display: flex;
+                align-items: space-between;
+                width: 100%;
+                margin-top: 5%;
+            }
+            
+            h2 {
+                font-size: 5rem;
+            }
+            
+            .info {
+                width: 40%;
+                text-align: center;
+            }
+            
+            .image1 {
+                width: 50%;
+                text-align: center;
+            }
+            
+            .mountains {
+                width: 50%;
+                height: 50%;
+            }
+            
+            p {
+                font-size: 2rem;
+            }
+            
+            .image1 {
+                width: 75%;
+                height: 40vh;
+                margin-left: 3%;
+            }
+            
+            .image2 {
+                width: 75%;
+                height: 40vh;
+            }
+            
+            .image3 {
+                width: 75%;
+                height: 40vh;
+            }
+            
+            .image4 {
+                width: 75%;
+                height: 40vh;
+            }
+            
+            .Image_section {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                width: 100%;
+            }
+            
+            .first {
+                width: 20%;
+            }
+            
+            .second {
+                width: 20%;
+            }
+            
+            .third {
+                width: 20%;
+            }
+            
+            .fourth {
+                width: 20%;
+            }
+            
+            .Images {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-evenly;
+                width: 100%;
+                margin-top: 7%;
+            }
+            
+            .image5 {
+                width: 200%;
+                height: 40vh;
+            }
+            
+            .image6 {
+                width: 200%;
+                height: 40vh;
+            }
+            
+            .image7 {
+                width: 200%;
+                height: 40vh;
+            }
+            
+            .image8 {
+                width: 200%;
+                height: 40vh;
+            }
+            
+            .firstdiv {
+                width: 10%;
+            }
+            
+            .seconddiv {
+                width: 10%;
+            }
+            
+            .thirddiv {
+                width: 10%;
+            }
+            
+            .fourthdiv {
+                width: 10%;
+            }
+            
+            button {
+                background: purple;
+                padding: 5%;
+                margin: 1%;
+                border 3px dotted blue;
+                border-radius: 50%;
+            }
+            
+            p {
+                font-size: 1.5rem;
+            }
+            
+            .footer {
+                display: flex;
+                text-align: center;
+                flex-direction: column;
+            }
+            
+            .paragraph {
+                font-size: 3rem;
+            }
+            
+            .footer {
+                margin-top: 5%;
+            }
